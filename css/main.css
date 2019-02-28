@@ -1,5 +1,5 @@
 body {
-    background-color: #2b2c88;
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
 }
 .container {
@@ -36,13 +36,24 @@ nav a:hover {
     color: darkred;
 }
 
+.img-container {
+    background-color: #2b2c88;
+}
+
 .main-pic {
-    margin-top: 35px;
-    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80%;
 }
 
 .call-to-action {
-    background-color: white;
+    margin-top: -4px;
+    background-color: #F2F2F2;
+}
+
+.call-to-action h2 {
+    padding-top: 40px;
+    margin-top: 0px;
 }
 
 .call-to-action .btn {
@@ -63,17 +74,110 @@ nav a:hover {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
-   
     width: 230px;
+    margin-bottom: 40px;
   }
-  .btn:hover, .btn:focus {
+  .call-to-action .btn:hover, .btn:focus {
     color: #fff;
     outline: 0;
   }
   
-  .btn {
+  .call-to-action .btn {
     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
   }
-  .btn:hover {
+  .call-to-action .btn:hover {
     box-shadow: 0 0 40px 40px darkred inset;
   }
+
+  .bot-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+
+  .schedule {
+      display: flex;
+      height: auto;
+  }
+
+  .calendar-note {
+    margin-right: 15px;
+  }
+
+  .calendar-note p {
+      margin-bottom: 0px;
+  }
+
+  .date {
+      margin-top: 28%;
+  }
+
+  /* .calendar-note {
+    background-color: #F2F2F2;
+  } */
+
+  .year, .time {
+      margin-top: 7px;
+  }
+
+  .year {
+      background-color: darkred;
+      color: white;
+  }
+
+  .event-description, .buynow {
+    margin-top: 25px;
+  }
+  
+  .buynow {
+      margin-left: 30px;
+  }
+
+  .buynow h3 {
+    margin-top: 0;
+  }
+
+  .schedule h3 {
+    margin-top: 0;
+  }
+
+  .schedule-addons-container {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+  }
+
+  .schedule-addons {
+    margin-right: 42px;
+  }
+
+  /* Footer */
+
+ .footer {
+    background-color: #6263CE;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer p {
+    align-self: center;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .footer p a{
+      color: white;
+  }
+  
+  .created {
+    font-size: 1em;
+  }
+  
+  .copyright {
+    
+    font-size: .8em;
+  } 
