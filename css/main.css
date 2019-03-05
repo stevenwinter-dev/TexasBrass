@@ -214,3 +214,17 @@ nav a:hover {
     
     font-size: .8em;
   } 
+
+  iframe {
+      margin-top: 90px;
+      margin-bottom: 90px;
+      width: 70%;
+  }
+
+  
+  @media only screen and (max-width : 991px) {
+      iframe {
+        width:98%;
+        text-align: center;
+      }
+  }
