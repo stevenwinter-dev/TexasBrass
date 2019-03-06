@@ -41,6 +41,7 @@ nav {
     /* padding-top: 12px; */
     letter-spacing: 1px;
     font-weight: 100;
+    
 }
 
  nav a:not(:first-child) {
@@ -50,17 +51,17 @@ nav {
     padding-top: 30px;
     padding-bottom: 35px;
     font-size: 1em;
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-nav a:hover {
-    transition: .6s;
-    color: var(--color3);
+ nav a:hover {
+    transition: .4s!important;
+    color: var(--color3)!important;
 }
 
 .nav-link{
     color: white!important;
+    text-transform: uppercase;
 }
 
 .logo {
@@ -221,6 +222,63 @@ nav a:hover {
       width: 70%;
   }
 
+  /* Dropdown Button */
+#top-a {
+    color: black;
+    text-decoration: none;
+    margin-right: 45px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: .4s;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black!important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: .8em!important;
+    margin-right: 0px!important;
+  }
+
+
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    visibility: visible;
+    opacity: 1;
+    }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {color: var(--color3)!important;}
+
+  .navbar-collapse {
+    margin-top: 6px;
+  }
   
   @media only screen and (max-width : 991px) {
       iframe {
