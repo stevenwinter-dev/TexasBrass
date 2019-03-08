@@ -71,6 +71,16 @@ nav {
 
 .img-container {
     background-color: #f6f0ef;
+    /* height: 95vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(243, 144, 79, 0.6),
+        rgba(59, 67, 113, 0.6)),
+    url(../img/tb1.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    clip-path:  polygon(0 0,100% 0, 100% 75vh, 0 100%); */
 }
 
 .main-pic {
