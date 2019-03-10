@@ -44,7 +44,7 @@ nav {
     
 }
 
- nav a:not(:first-child) {
+ /* nav a:not(:first-child) {
     color: white;
     text-decoration: none;
     margin-right: 45px;
@@ -52,15 +52,15 @@ nav {
     padding-bottom: 35px;
     font-size: 1em;
     letter-spacing: 1px;
+} */
+
+#bootstrap-override nav a:hover {
+    transition: .4s;
+    color: var(--color3);
 }
 
- nav a:hover {
-    transition: .4s!important;
-    color: var(--color3)!important;
-}
-
-.nav-link{
-    color: white!important;
+#bootstrap-override .nav-link{
+    color: white;
     text-transform: uppercase;
 }
 
@@ -263,13 +263,13 @@ nav {
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black!important;
+  #bootstrap-override .dropdown-content a {
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-size: .8em!important;
-    margin-right: 0px!important;
+    font-size: .8em;
+    margin-right: 0px;
   }
 
 
@@ -284,7 +284,7 @@ nav {
     }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {color: var(--color3)!important;}
+  /* #bootstrap-override .dropdown:hover .dropbtn {color: var(--color3);} */
 
   .navbar-collapse {
     margin-top: 6px;
@@ -295,4 +295,13 @@ nav {
         width:98%;
         text-align: center;
       }
+  }
+
+  @media only screen and (max-width : 382px) {
+    .navbar-toggler {
+        padding: 0;
+    }
+    #tb {
+        font-size: 2em;
+    }
   }
