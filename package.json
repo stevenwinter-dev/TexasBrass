@@ -1,0 +1,22 @@
+{
+  "name": "texas-brass",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000e\u0000x\u0000a\u0000s\u0000B\u0000r\u0000a\u0000s\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenwinter-me/TexasBrass.git"
+  },
+  "author": "Steven Winter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenwinter-me/TexasBrass/issues"
+  },
+  "homepage": "https://github.com/stevenwinter-me/TexasBrass#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
