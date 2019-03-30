@@ -4,7 +4,7 @@
   --color3: #c08c59; }
 
 body {
-  background-color: var(--color1);
+  background-color: #F6F0EF;
   font-family: 'Montserrat', sans-serif; }
 
 .my-container {
@@ -48,7 +48,7 @@ nav {
 } */
 #bootstrap-override nav a:hover {
   transition: .4s;
-  color: var(--color3); }
+  color: #c08c59; }
 
 #bootstrap-override .nav-link {
   color: white;
@@ -60,6 +60,7 @@ nav {
 
 .img-container {
   background-color: #f6f0ef;
+  /* $color-white */
   /* height: 95vh;
     background-image: linear-gradient(
         to right bottom, 
@@ -79,6 +80,7 @@ nav {
 .call-to-action {
   margin-top: -4px;
   background-color: #4d4d4d;
+  /* $color-grey-light */
   color: white; }
 
 .call-to-action h2 {
@@ -91,9 +93,9 @@ nav {
   -moz-appearance: none;
   appearance: none;
   background-color: transparent;
-  border: 2px solid var(--color3);
+  border: 2px solid #c08c59;
   border-radius: 0.6em;
-  color: var(--color3);
+  color: #c08c59;
   cursor: pointer;
   font-size: 1rem;
   line-height: 1;
@@ -108,19 +110,20 @@ nav {
 
 .call-to-action .btn:hover, .btn:focus {
   color: #fff;
+  /* $color-white */
   outline: 0; }
 
 .call-to-action .btn {
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out; }
 
 .call-to-action .btn:hover {
-  box-shadow: 0 0 40px 40px var(--color3) inset; }
+  box-shadow: 0 0 40px 40px #c08c59 inset; }
 
 .bot-content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: var(--color1); }
+  background-color: #F6F0EF; }
 
 .schedule {
   display: flex;
@@ -142,7 +145,7 @@ nav {
   margin-top: 7px; }
 
 .year {
-  background-color: var(--color3);
+  background-color: #c08c59;
   color: white; }
 
 .event-description, .buynow {
@@ -161,14 +164,14 @@ nav {
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  background-color: var(--color1); }
+  background-color: #F6F0EF; }
 
 .schedule-addons {
   margin-right: 42px; }
 
 /* Footer */
 .footer {
-  background-color: var(--color2);
+  background-color: #31211c;
   height: 60px;
   display: flex;
   justify-content: space-between; }
@@ -239,7 +242,7 @@ iframe {
   opacity: 1; }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-/* #bootstrap-override .dropdown:hover .dropbtn {color: var(--color3);} */
+/* #bootstrap-override .dropdown:hover .dropbtn {color: $color-primary-light;} */
 .navbar-collapse {
   margin-top: 6px; }
 
