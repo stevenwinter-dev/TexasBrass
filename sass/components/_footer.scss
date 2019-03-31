@@ -1,0 +1,25 @@
+.footer {
+    background-color: $color-primary-dark;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer p {
+    align-self: center;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .footer p a{
+      color: white;
+  }
+  
+  .created {
+    font-size: 1em;
+  }
+  
+  .copyright {
+    font-size: .8em;
+  } 
